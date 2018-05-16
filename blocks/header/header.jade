@@ -1,4 +1,32 @@
 noscript
     p Please enable Javascript
     
-header.header
+header.flex-column.flex-md-row
+    a.mr-0.mr-md-4(href="#")
+        img(src="img/header-logo.png", alt="invision group")
+    
+
+    nav.navbar.navbar-expand-md.header__nav.justify-content-center.justify-content-lg-between
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#headerNav', aria-controls='headerNav', aria-expanded='false', aria-label='Toggle navigation')
+            i.fas.fa-align-justify.color-white
+    
+        #headerNav.collapse.navbar-collapse
+            ul.navbar-nav
+                li
+                    a.header__nav-item(href="#") Invision group
+                li
+                    a.header__nav-item(href="#") О Компании
+                li
+                    a.header__nav-item.header__nav-item_active(href="#") Услуги
+                li
+                    a.header__nav-item(href="#") Инженерные системы
+                li
+                    a.header__nav-item(href="#") Портфолио
+                li
+                    a.header__nav-item(href="#") Контакты
+    
+    .header__socials
+        a.insta-icon(href="#")
+        a.yt-icon(href="#")
+        a.fb-icon(href="#")
+    

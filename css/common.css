@@ -1,3 +1,12 @@
+@font-face {
+    font-family: "Arial Narrow";
+    src: url("fonts/Arial Narrow.TTF");
+}
+@font-face {
+    font-family: "Open Sans - Semibold";
+    src: url("fonts/opensans-semibold.ttf");
+}
+
 *{
     box-sizing: border-box;
 }
@@ -5,4 +14,30 @@
 body{
     margin: 0px;
     padding: 0px;
+}
+
+.insta-icon{
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("img/insta.png") no-repeat center / contain;
+}
+
+.yt-icon{
+    width: 19px;
+    height: 19px;
+    display: block;
+    background: url("img/yt.png") no-repeat center / contain;
+}
+
+.fb-icon{
+    width: 19px;
+    height: 19px;
+    display: block;
+    /* костыль из-за кривой картинки */
+    background: url("img/fb.png") no-repeat center right;
+}
+
+.color-white{
+    color: white;
 }
