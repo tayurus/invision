@@ -92,6 +92,11 @@
 }
 
 @media (max-width:767px),(max-device-width:767px) {
+    .service{
+        width: 144px;
+        height: 300px;
+    }
+
     .service img{
         height: 300px;
     }
