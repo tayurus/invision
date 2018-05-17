@@ -9,6 +9,16 @@
     padding: 0px;
 }
 
+.container_equipment{
+    background: rgba(0,0,0,0.4);
+    padding: 27px 42px 28px 31px;
+}
+
+.container_equipment-carousel{
+    margin-top: 71px;
+    padding-bottom: 70px;
+}
+
 .container_service-wrapper{
     padding-left: 54px;
     max-width: 720px;
@@ -20,6 +30,13 @@
     font-size: 24px;
     line-height: 40px;
     margin-bottom: 27px;
+}
+
+.container__title_equipment{
+    font-family: "Open Sans - Semibold";
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
 }
 
 .container__text{

@@ -29,9 +29,6 @@ $(".service-carousel .owl-prev").click(function() {
          $(this).siblings().find('.service-carousel-current').text(curr - 1);
 });
 
-
-
-
 $(".service-carousel .owl-next").click(function() {
     let curr = parseInt($(this).siblings().find('.service-carousel-current').text());
     let total = parseInt($(this).parent().parent().find('.owl-stage-outer .owl-stage .owl-item').length);

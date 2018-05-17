@@ -1,0 +1,38 @@
+.equipment-carousel{
+    padding: 0px 38px;
+}
+
+.equipment-carousel .owl-item{
+    display: flex;
+    align-items: center;
+    width: auto !important;
+    height: 52px;
+    position: relative !important;
+}
+
+.equipment-carousel .owl-item img{
+    width: auto !important;
+    filter: brightness(0) invert(1);
+}
+
+.equipment-carousel img:hover{
+    filter: none;
+}
+
+.equipment-carousel .owl-nav{
+    height: 0px;
+    margin: 0px !important;
+}
+
+.equipment-carousel .owl-prev{
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    transform: translateY(-68%);
+}
+.equipment-carousel .owl-next{
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-68%);
+}
