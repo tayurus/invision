@@ -11,6 +11,7 @@
 
 .container_service-wrapper{
     padding-left: 54px;
+    max-width: 720px;
 }
 
 .container__title_service{
@@ -31,6 +32,7 @@
 
 @media (max-width:1200px),(max-device-width:1200px) {
     .container_service-wrapper{
+        max-width: 66.666%;
         padding-left: 15px;
         padding: 0px;
     }
@@ -39,6 +41,11 @@
 @media (max-width:992px),(max-device-width:992px) {
     .container_service-wrapper{
         min-height: 300px;
+    }
+}
 
+@media (max-width:767px),(max-device-width:767px) {
+    .container_service-wrapper{
+        max-width: 100%;
     }
 }
