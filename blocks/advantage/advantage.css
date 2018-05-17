@@ -1,0 +1,36 @@
+.advantage{
+
+}
+
+.advantage__icon{
+    min-width: 26px;
+    max-width: 26px;
+    min-height: 26px;
+    max-height: 26px;
+    background: url("img/service-arrow.png") no-repeat center / cover;
+    margin-right: 21px;
+}
+
+.advantage__title{
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.advantage__icon_small{
+    min-width: 22px;
+    min-height: 22px;
+    max-width: 22px;
+    max-height: 22px;
+    border-radius: 5px;
+    background-color: #c9972b;
+    margin-right: 8px;
+}
+
+.advantage__text{
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 14px;
+    line-height: 20px;
+}

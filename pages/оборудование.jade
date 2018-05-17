@@ -1,7 +1,7 @@
 doctype html
 html(lang="ru")
     include ../blocks/head/head.jade
-    body(style="background:url('img/service-bg.png') no-repeat center / cover; min-height:92vh;")
+    body(style="background:url('img/service-bg.png') no-repeat center / cover; min-height:95vh;")
         include ../blocks/header/header.jade
             
         main.text-center.text-md-left
@@ -17,5 +17,32 @@ html(lang="ru")
                             span(style="color: #c59946;") ПОСТАВЛЯЕМОГО ОБОРУДОВАНИЯ:
                         .container__text • Оборудование и материалы для систем вентиляци, и кондиционирования • Холодильное оборудование • Системы кондиционирования • Отопительное оборудование • Щитовое оборудование • Комплектующие для систем электроснабжения 
                             |  • Труб опроводы • Кабель ная продукция • Источники бесперебойного питания • Оборудование систем безопасности • Активное сетевое оборудование • Компоненты молниезащиты • Оборудование систем автоматизации и диспетчеризации •         Оборудование аудио-видео систем и домашние кинотеатры •
-            
+                                
             include ../blocks/equipment-carousel/equipment-carousel.jade
+
+            .container.pb-4
+                .row
+                    .col-lg-3.mb-4.mb-lg-0
+                        .advantage
+                            .d-flex
+                                .advantage__icon
+                                .advantage__title Сотрудничество
+                            .pl-3.d-flex
+                                .advantage__icon_small
+                                .advantage__text Сотрудничество с официальными поставщиками и производителями оборудования.
+                    .col-lg-3.mb-4.mb-lg-0
+                        .advantage
+                            .d-flex
+                                .advantage__icon
+                                .advantage__title Обслуживание
+                            .pl-3.d-flex
+                                .advantage__icon_small
+                                .advantage__text Высокий уровень гарантийного и сервисного обслуживания.
+                    .col-lg-3.px-3.px-lg-0.mb-4.mb-lg-0
+                        .advantage
+                            .d-flex
+                                .advantage__icon 
+                                .advantage__title Под заказ
+                            .pl-3.d-flex
+                                .advantage__icon_small
+                                .advantage__text Изготовление и поставка нестандартного оборудования под заказ.
