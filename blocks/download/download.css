@@ -1,0 +1,28 @@
+.download{
+    width: 270px;
+    height: 191px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download__icon{
+    margin-right: 10px;
+}
+
+.download__text{
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+@media (max-width:560px),(max-device:width:560px) {
+    .download{
+        width: 140px;
+    }
+
+    .download__text{
+        font-size: 13px;
+    }
+}

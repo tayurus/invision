@@ -10,6 +10,14 @@
     font-family: "Open Sans";
     src: url("fonts/opensans.ttf");
 }
+@font-face {
+    font-family: "Open Sans - Light";
+    src: url("fonts/opensans-light.ttf");
+}
+@font-face {
+    font-family: "Open Sans - Condensedlight";
+    src: url("fonts/opensanscondensedlight.ttf");
+}
 
 *{
     box-sizing: border-box;
