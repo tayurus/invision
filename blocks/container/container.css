@@ -18,6 +18,11 @@
     margin-top: 50px;
 }
 
+.container_contacts{
+    margin-top: 80px;
+    margin-bottom: 69px;
+}
+
 .container_equipment-carousel{
     margin-top: 71px;
     padding-bottom: 70px;
@@ -76,6 +81,10 @@
 @media (max-width:992px),(max-device-width:992px) {
     .container_service-wrapper{
         min-height: 300px;
+    }
+
+    .container_contacts{
+        margin-top: 20px;
     }
 }
 

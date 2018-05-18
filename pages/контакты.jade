@@ -1,0 +1,43 @@
+doctype html
+html(lang="ru")
+    include ../blocks/head/head.jade
+    body(style="background:url('img/contact-bg.png') no-repeat center / cover; min-height:96vh;")
+        include ../blocks/header/header.jade
+            
+        main.text-center.text-md-left
+        
+            .container.container_service
+                .row.mx-0
+                    .col-md-4
+                        h2.container__title_service.mt-3 Инжиниринговая компания
+                            br
+                            span(style="text-transform:uppercase") INVISION GROUP
+                        
+                        .container__text ИНН	0000000000
+                        .container__text КПП	000000000
+                        .container__text ОКПО 00000000
+                        .container__text ОГРН 0000000000000 от 12 апреля 2010
+                        br
+                        .container__text Юридический адрес	127081, г. Москва,  улица Чермянская, дом 3, строение 2, помещение 3
+                        br
+                        .container__text Банк	ПАО "Сбербанк России" г. Москва
+                        .container__text БИК	044525225
+                        .container__text К/счет	00000000000000000000
+                        .container__text Р/счет	00000000000000000000
+                    
+                    .col-md-8
+                        iframe(class="contacts-map",src="https://yandex.ru/map-widget/v1/?um=constructor%3A948df42c7b9afdb2161efa52e1e7d4db0ce34a57138bbbd92f3178b8662c76d7&amp;source=constructor" width="100%" height="442" frameborder="0")
+            .container.container_contacts
+                .row
+                    .col-lg-3.my-3.my-lg-0
+                        .contact
+                            img.contact__icon(src="img/phone.png", alt="тел:")
+                            a.contact__text(href="tel:+74952369393") +7 (495) 236-93-93
+                    .col-lg-3.my-3.my-lg-0
+                        .contact
+                            img.contact__icon(src="img/message.png", alt="mail:")
+                            a.contact__text(href="mailto:info@invisiongroup.ru") info@invisiongroup.ru
+                    .col-lg-6.my-3.my-lg-0
+                        .contact
+                            img.contact__icon(src="img/address.png", alt="адрес:")
+                            .contact__text 115088, г. Москва, ул. Угрешская, д.2 стр.21

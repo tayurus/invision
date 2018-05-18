@@ -45,3 +45,12 @@ body{
 .color-white{
     color: white;
 }
+
+@media (max-width:600px),(max-device-width:600px) {
+    .contacts-map{
+        width: 90%;
+        height: 300px;
+        margin: 0px auto;
+        display: block;
+    }
+}
