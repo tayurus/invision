@@ -6,6 +6,10 @@
     font-family: "Open Sans - Semibold";
     src: url("fonts/opensans-semibold.ttf");
 }
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/opensans.ttf");
+}
 
 *{
     box-sizing: border-box;

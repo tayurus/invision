@@ -1,0 +1,63 @@
+doctype html
+html(lang="ru")
+    include ../blocks/head/head.jade
+    body(style="background:url('img/service-bg.png') no-repeat center / cover; min-height:96vh;")
+        include ../blocks/header/header.jade
+            
+        main.text-center.text-md-left
+            .container.container_service
+                .row.mx-0
+                    .col-md-4
+                        h2.container__title_service.mt-3 Проектирование
+                        .container__text.mb-4 Компания INVISION GROUP оказывает полный комплекс услуг по проектированию инженерных систем, от формирования технического задания до согласования проектной документации. 
+                        .container__text INVISION GROUP - это команда профессионалов, которая постоянно расширяет свои знания, чтобы быть в курсе последних тенденций инженерных систем применяя новейшие технологии ведущих мировых производителей
+                    .col-md-8.container_service-wrapper2.mt-4.mt-md-0
+                        .d-flex.justify-content-around.justify-content-sm-between.container_service-inner
+        
+                                .service.service_big
+                                    .service__inner.service__inner_2.mt-0
+                                        .service__info
+                                            .service__number 01
+                                            .service__text Жилой комплекс
+                                        img(src="img/planning1.png", alt="Артхаус")
+                                        a.service__title.service__title_2.service__title_big(href="#") Суханово-парк
+                                .service.service_big
+                                    .service__inner.service__inner_2.mt-0
+                                        .service__info
+                                            .service__number 02
+                                            .service__text Жилой комплекс
+                                        img(src="img/planning2.png", alt="Артхаус")
+                                        a.service__title.service__title_2.service__title_big(href="#") Артхаус
+
+            .container.pb-4.container_advantages
+                .row
+                    .col-lg-3.col-md-4.mb-4.mb-lg-0
+                        .advantage
+                            .d-flex.mb-1
+                                .advantage__icon.advantage__icon_arrow
+                                .advantage__title Оптимизация
+                            .pl-3.d-flex.align-items-center
+                                .advantage__icon.advantage__icon_smallest
+                                .advantage__title технических решений
+                    .col-lg-3.col-md-4.mb-4.mb-lg-0
+                        .advantage
+                            .d-flex.mb-1.align-items-center
+                                .advantage__icon.advantage__icon_arrow
+                                .advantage__title Комплексный подход
+                            .pl-3.d-flex.align-items-center
+                                .advantage__icon.advantage__icon_smallest
+                                .advantage__title к каждому проекту
+                    .col-lg-3.col-md-4.px-3.px-lg-0.mb-4.mb-lg-0
+                        .advantage
+                            .d-flex.mb-1
+                                .advantage__icon.advantage__icon_arrow
+                                .advantage__title Экономия финансовых
+                            .pl-3.d-flex.align-items-center
+                                .advantage__icon.advantage__icon_smallest
+                                .advantage__title и временных затрат
+                    .col-lg-1.col-12.service__arrows
+                        a.mr-3(href="#")
+                            img(src="img/service-slider-left.png", alt="<")
+                        a(href="#")
+                            img(src="img/service-slider-right.png", alt=">")
+                            

@@ -14,6 +14,10 @@
     padding: 27px 42px 28px 31px;
 }
 
+.container_advantages{
+    margin-top: 50px;
+}
+
 .container_equipment-carousel{
     margin-top: 71px;
     padding-bottom: 70px;
@@ -22,6 +26,20 @@
 .container_service-wrapper{
     padding-left: 54px;
     max-width: 720px;
+}
+
+.container_service-inner{
+    min-height: 441px;
+}
+
+.container_service-wrapper2{
+    padding-left: 79px;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .container_service-wrapper2{
+        padding-left: 0px;
+    }
 }
 
 .container__title_service{
@@ -64,5 +82,17 @@
 @media (max-width:767px),(max-device-width:767px) {
     .container_service-wrapper{
         max-width: 100%;
+    }
+
+    .container_service{
+        margin-top: 0px;
+    }
+
+    .container_service-inner{
+        min-height: auto;
+    }
+
+    .container_service-wrapper2{
+        padding: 0px;
     }
 }

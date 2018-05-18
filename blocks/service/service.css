@@ -23,6 +23,10 @@
     width: 200px;
 }
 
+.service_big{
+    width: 300px;
+}
+
 .service img{
     z-index: 1;
     position: relative;
@@ -45,6 +49,13 @@
     transition-property: left,right;
 }
 
+.service__title_big{
+    width: 88%;
+    font-size: 22px;
+    letter-spacing: 1.32px;
+    padding: 13px 75px 13px 56px;
+}
+
 .service__title:hover{
     color: #c59946;
     text-decoration: none;
@@ -56,6 +67,39 @@
     width: 420px;
     position: absolute;
     top: 0px;
+}
+
+.service__info{
+    position: absolute;
+    width: 163px;
+    height: 70px;
+    z-index: 2;
+    bottom: 101px;
+    left: 52px;
+}
+
+
+
+.service__number{
+    color: #fffefe;
+    font-family: "Open Sans";
+    font-weight: 700;
+    border-bottom: 1px solid #c59946;
+}
+
+.service__text{
+    color: #ffffff;
+    font-family: "Open Sans - Semibold";
+    font-size: 19px;
+    bottom: 0%;
+    position: absolute;
+}
+
+
+.service__arrows{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
 }
 
 /* SERVICE1 */
@@ -104,10 +148,37 @@
     right: 0px;
 }
 
+@media (max-width:1200px),(max-device-width:1200px) {
+    .service__info{
+        left:auto;
+        right: 15px;
+    }
+}
+
+
 @media (max-width:992px),(max-device-width:992px) {
     .service img{
         width: 145px !important;
         object-fit: contain;
+    }
+
+    .service_big, .service_big img{
+        width: 200px !important;
+    }
+
+    .service__title_big{
+        bottom: 85px;
+        width: auto;
+    }
+
+    .service__info{
+        bottom: 200px;
+    }
+
+    .service__arrows{
+        order: -1;
+        margin-bottom: 20px;
+        justify-content: center;
     }
 }
 
@@ -116,8 +187,27 @@
         width: 144px;
     }
 
+    .service__title_big{
+        padding: 5px 20px;
+        font-size: 13px;
+    }
+
     .service{
         height: 210px;
+    }
+
+    .service__info{
+        bottom: auto;
+        right: auto;
+        width: auto;
+    }
+
+    .service__text{
+        display: none;
+    }
+
+    .service__number{
+        border-bottom: 0px;
     }
 
     .service-carousel .owl-nav{
@@ -137,6 +227,8 @@
     .service__inner_2{
         margin-top:0px
     }
+
+
 }
 
 @media (max-width:560px),(max-device-width:560px) {
@@ -149,5 +241,9 @@
 @media (max-width:460px),(max-device-width:460px) {
     .service img, .service{
         width: 90px !important;
+    }
+
+    .service_big img, .service_big{
+        width: 140px !important;
     }
 }
