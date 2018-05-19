@@ -4,13 +4,13 @@ $(".service-carousel").owlCarousel({
     nav:true,
     margin:300,
     navText: ["<img src='img/service-slider-left.png'>","<img src='img/service-slider-right.png' >"],
-    onDragged: callback,
+    onDragged: serviceCallBack,
     mouseDrag: false,
     touchDrag: true
 });
 
 
-function callback(event) {
+function serviceCallBack(event) {
     var item      = event.item.index;     // Position of the current item
     $(event.target).find('.service-carousel-current').text(item + 1);
 }

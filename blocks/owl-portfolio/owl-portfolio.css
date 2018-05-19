@@ -1,0 +1,8 @@
+.owl-portfolio .owl-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    color: #fff;
+}

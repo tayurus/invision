@@ -1,0 +1,40 @@
+doctype html
+html(lang="ru")
+    include ../blocks/head/head.jade
+    body(style="background:url('img/contact-bg.png') no-repeat center / cover; min-height:96vh;")
+        include ../blocks/header/header.jade
+            
+        main.text-center.text-lg-left
+            .container.container_service
+                .row.mx-0
+                    .col-lg-4
+                        h2.container__title.mt-3 
+                            span.color-white Котеджный поселок
+                            br
+                            span.text-uppercase Белый Берег
+                        
+                        .container__title_small.mb-1 Объект:
+                        .container__text Частная квартира общей площадью 650 м2.
+                        br
+                        .container__title_small.mb-1 Выполненные работы:
+                        .container__text Проектирование и строительство инженерных сетей с применением новейших технологий по следующим инженерным системам:
+                        .container__text - Система общеобменной вентиляции
+                        .container__text - Система кондиционирования VRV
+                        .container__text - Система адиабатического увлажнения
+                        .container__text - Система водоснабжения и канализации
+                        .container__text - Система отопления
+                        
+                    .col-lg-8.position-relative
+                        .owl-carousel.owl-theme.owl-portfolio
+                            div
+                                img.img-fluid(src="img/example.png", alt="Пример работы")
+                                img.zoomIn(src="img/zoomIn.png",alt="Увеличить")
+                            div
+                                img.img-fluid(src="img/example.png", alt="Пример работы")
+                                img.zoomIn(src="img/zoomIn.png",alt="Увеличить")
+            .container.mb-4                    
+                a.link.link_back(href="#")
+                    img(src="img/back.png", alt="<<")
+                    .link__text назад
+            
+                
