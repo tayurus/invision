@@ -1,0 +1,52 @@
+.example{
+    width: 273px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 27px;
+    border-radius: 5px;
+}
+
+.example__title{
+    position: absolute;
+    z-index: 2;
+    color: #c59946;
+    font-family: "Arial Narrow";
+    font-size: 15px;
+    white-space: nowrap;
+    padding: 17px 55px;
+    text-transform: uppercase;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(0,0,0,0.8);
+    letter-spacing: 1.02px;
+    transition-duration: 1s;
+    transition-property: left,right;
+    right: -300px;
+    top: 21px;
+}
+
+.example:hover .example__title{
+    right: 0px;
+    color: #c59946;
+    text-decoration: none;
+}
+
+@media (max-width:767px),(max-device-width:767px) {
+    .example, .example img{
+        width: 200px;
+    }
+
+    .example__title{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:470px),(max-device-width:470px) {
+    .example, .example img{
+        width: 273px;
+    }
+
+    .example__title{
+        font-size: 15px;
+    }
+}
