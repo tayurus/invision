@@ -1,0 +1,52 @@
+.owl-about{
+    max-width: 1030px;
+    margin: 0px auto;
+    position: static;
+}
+
+.owl-about img{
+    min-width: 123px;
+    min-height: 173px;
+    max-width: 123px;
+    max-height: 173px;
+    margin: 0px auto;
+}
+
+.owl-about .owl-nav{
+    height: 0px;
+    margin: 0px;
+}
+
+.owl-about .owl-stage-outer{
+    position: static;
+}
+
+.owl-about .owl-prev{
+    width: 26px;
+    height: 26px;
+    font-size: 0px !important;
+    background: url('img/service-slider-left.png') no-repeat center / contain !important;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.owl-about .owl-next{
+    width: 26px;
+    height: 26px;
+    font-size: 0px !important;
+    background: url('img/service-slider-right.png') no-repeat center / contain !important;
+    position: absolute;
+    top: 5px;
+    right: 0%;
+}
+
+@media (max-width:380px),(max-device-width:380px) {
+    .owl-about .owl-prev, .owl-about .owl-next{
+        width: 22px;
+        height: 22px;
+    }
+
+    .owl-about .owl-prev{
+        right: 30px;
+    }
+}
