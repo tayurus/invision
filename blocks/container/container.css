@@ -41,7 +41,7 @@
     padding-left: 79px;
 }
 
-@media (max-width:1200px),(max-device-width:1200px) {
+@media (max-width:767px),(max-device-width:767px) {
     .container_service-wrapper2{
         padding-left: 0px;
     }

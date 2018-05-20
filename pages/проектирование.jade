@@ -5,29 +5,43 @@ html(lang="ru")
         include ../blocks/header/header.jade
             
         main.text-center.text-md-left
-            .container.mt-1.mt-md-2.mt-xl-5
-                .row.mx-0
+            .container.mt-1.mt-md-2.mt-xl-5.px-2.px-md-0
+                .row.mx-0.align-items-center.align-items-lg-start
                     .col-md-4
                         h2.container__title.mt-3 Проектирование
                         .container__text.mb-4 Компания INVISION GROUP оказывает полный комплекс услуг по проектированию инженерных систем, от формирования технического задания до согласования проектной документации. 
                         .container__text INVISION GROUP - это команда профессионалов, которая постоянно расширяет свои знания, чтобы быть в курсе последних тенденций инженерных систем применяя новейшие технологии ведущих мировых производителей
                     .col-md-8.container_service-wrapper2.mt-4.mt-md-0
-                        .d-flex.justify-content-around.justify-content-sm-between.container_service-inner
-        
-                                .service.service_big
-                                    .service__inner.service__inner_2.mt-0
-                                        .service__info
-                                            .service__number 01
-                                            .service__text Жилой комплекс
-                                        img(src="img/planning1.jpg", alt="Артхаус")
-                                        a.service__title.service__title_2.service__title_big(href="#") Суханово-парк
-                                .service.service_big
-                                    .service__inner.service__inner_2.mt-0
-                                        .service__info
-                                            .service__number 02
-                                            .service__text Жилой комплекс
-                                        img(src="img/planning2.jpg", alt="Артхаус")
-                                        a.service__title.service__title_2.service__title_big(href="#") Артхаус
+                        .d-flex.justify-content-around.justify-content-sm-between
+                            
+                            .example.mr-4
+                                img.img-fluid(src="img/planning1.jpg", alt="Артхаус")
+                                .example__info
+                                    .example__number 01
+                                    .example__text Жилой комплекс
+                                a.example__title.example__title_hover_w350.example__title_drowned.example__title_big.example__title_appearFromLeft-md(href="#") Суханово-парк
+                            .example
+                                img.img-fluid(src="img/planning2.jpg", alt="Артхаус")
+                                .example__info
+                                    .example__number 02
+                                    .example__text Жилой комплекс
+                                a.example__title.example__title_hover_w350.example__title_drowned.example__title_big(href="#") Артхаус
+                                //- .service.service_big
+                                //-     .service__inner.service__inner_2.mt-0
+                                //-         .service__info
+                                //-             .service__number 01
+                                //-             .service__text Жилой комплекс
+                                //-         img(src="img/planning1.jpg", alt="Артхаус")
+                                //-         a.service__title.service__title_2.service__title_big(href="#") Суханово-парк
+                                //- .service.service_big
+                                //-     .service__inner.service__inner_2.mt-0
+                                //-         .service__info
+                                //-             .service__number 02
+                                //-             .service__text Жилой комплекс
+                                //-         img(src="img/planning2.jpg", alt="Артхаус")
+                                //-         a.service__title.service__title_2.service__title_big(href="#") Артхаус
+                                
+                            
 
             .container.pb-4.container_advantages
                 .row
