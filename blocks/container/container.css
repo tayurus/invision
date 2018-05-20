@@ -8,10 +8,6 @@
     }
 }
 
-.container_service{
-    margin-top: 34px;
-    padding: 0px;
-}
 
 .container_equipment{
     background: rgba(0,0,0,0.4);
@@ -114,10 +110,6 @@
 @media (max-width:767px),(max-device-width:767px) {
     .container_service-wrapper{
         max-width: 100%;
-    }
-
-    .container_service{
-        margin-top: 0px;
     }
 
     .container_service-inner{

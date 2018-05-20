@@ -1,52 +1,94 @@
 .example{
-    width: 273px;
-    overflow: hidden;
     position: relative;
-    margin-right: 5px;
     margin-bottom: 27px;
     border-radius: 5px;
 }
 
+.example_drowned{
+    margin-top: 90px;
+}
+
 .example__title{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    overflow: hidden;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
+    right: 0px;
+    top: 21px;
+    width: 0px;
     color: #c59946;
     font-family: "Arial Narrow";
     font-size: 15px;
     white-space: nowrap;
-    padding: 17px 55px;
     text-transform: uppercase;
     border-radius: 5px 0 0 5px;
     background-color: rgba(0,0,0,0.8);
     letter-spacing: 1.02px;
     transition-duration: 1s;
-    transition-property: left,right;
-    right: -300px;
-    top: 21px;
+    transition-property: width,padding;
+}
+
+.example__title_appearFromLeft{
+    text-align: right;
+    right: auto;
+    left: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.example__title_drowned{
+    top: auto;
+    bottom: 21px;
 }
 
 .example:hover .example__title{
-    right: 0px;
+    width: 95%;
     color: #c59946;
     text-decoration: none;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.example:hover .example__title_hover_w350{
+    width: 350px;
+}
+
+@media (max-width:992px),(max-device-width:) {
+    .example__title{
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+
+    .example:hover .example__title_hover_w350{
+        width: 300px;
+    }
+
+    .example:hover .example__title{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
 @media (max-width:767px),(max-device-width:767px) {
-    .example, .example img{
-        width: 200px;
-    }
-
-    .example__title{
-        font-size: 13px;
+    .example_drowned{
+        margin-top: 0px;
     }
 }
 
-@media (max-width:470px),(max-device-width:470px) {
-    .example, .example img{
-        width: 273px;
+
+@media (max-width:560px),(max-device-width:560px){
+    .example__title{
+        padding-top:10px;
+        padding-bottom: 10px;
+        font-size: 10px;
     }
 
-    .example__title{
-        font-size: 15px;
+    .example:hover .example__title_hover_w350{
+        width: 200px;
+    }
+
+    .example:hover .example__title{
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
