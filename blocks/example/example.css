@@ -45,8 +45,8 @@
     width: 95%;
     color: #c59946;
     text-decoration: none;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .example:hover .example__title_hover_w350{
@@ -57,6 +57,7 @@
     .example__title{
         padding-top:10px;
         padding-bottom: 10px;
+        font-size: 13px;
     }
 
     .example:hover .example__title_hover_w350{
@@ -73,6 +74,7 @@
     .example_drowned{
         margin-top: 0px;
     }
+
 }
 
 
@@ -80,7 +82,7 @@
     .example__title{
         padding-top:10px;
         padding-bottom: 10px;
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .example:hover .example__title_hover_w350{
