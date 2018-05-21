@@ -3,16 +3,17 @@ html(lang="ru")
     include ../blocks/head/head.jade
     body(style="background:url('img/contact-bg.jpg') no-repeat center / cover; min-height:96vh;")
         include ../blocks/header/header.jade
-            
+        include ../blocks/blackout/blackout.jade
+        
         main.text-center.text-lg-left
             .container.mt-1.mt-md-2.mt-xl-5
                 .row.mx-0
                     .col-lg-4
-                        h2.container__title.mt-3 
+                        h2.container__title.mt-3
                             span.color-white Котеджный поселок
                             br
                             span.text-uppercase Белый Берег
-                        
+
                         .container__title_small.mb-1 Объект:
                         .container__text Частная квартира общей площадью 650 м2.
                         br
@@ -23,19 +24,17 @@ html(lang="ru")
                         .container__text - Система адиабатического увлажнения
                         .container__text - Система водоснабжения и канализации
                         .container__text - Система отопления
-                        
+
                     .col-lg-8.position-relative
                         .owl-carousel.owl-theme.owl-portfolio
                             div
-                                img.img-fluid(src="img/example.jpg", alt="Пример работы")
+                                img.img-fluid.img-example(src="img/example.jpg", alt="Пример работы")
                                 img.zoomIn(src="img/zoomIn.png",alt="Увеличить")
                             div
-                                img.img-fluid(src="img/example.jpg", alt="Пример работы")
+                                img.img-fluid.img-example(src="img/example.jpg", alt="Пример работы")
                                 img.zoomIn(src="img/zoomIn.png",alt="Увеличить")
-                                
-            .container.mb-4.mt-3                    
+
+            .container.mb-4.mt-3
                 a.link.link_back(href="#")
                     img(src="img/back.png", alt="<<")
                     .link__text назад
-            
-                
