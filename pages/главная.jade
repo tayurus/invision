@@ -1,7 +1,12 @@
 doctype html
 html(lang="ru")
     include ../blocks/head/head.jade
-    body(style="background:url('img/contact-bg.jpg') no-repeat center / cover; min-height:96vh;")
+    body
+        .backgrounds-carousel
+            .backgrounds-carousel__item.backgrounds-carousel__item_bg1
+            .backgrounds-carousel__item.backgrounds-carousel__item_bg2
+            .backgrounds-carousel__item.backgrounds-carousel__item_bg1
+            .backgrounds-carousel__item.backgrounds-carousel__item_bg2
         include ../blocks/header/header.jade
             
         main.text-center.text-lg-left
