@@ -1,0 +1,109 @@
+.triangles{
+    max-width: 611px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 112px 26px 68px auto
+}
+
+.triangles__main{
+    width: 257px;
+    height: 316px;
+    position: relative;
+}
+
+.triangle{
+    width: 124px;
+    height: 111px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.triangle__1{
+    background: url("img/yellow-rotated.png") no-repeat center / contain;
+}
+
+.triangle__1:hover{
+    background: url("img/triangle1-hover.png") no-repeat center / contain;
+}
+.triangle__2{
+    background: url("img/white-normal.png") no-repeat center / contain;
+    top: 65px;
+    left: 50px;
+}
+
+.triangle__2:hover{
+    background: url("img/triangle2-hover.png") no-repeat center / contain;
+}
+.triangle__3{
+    background: url("img/white-rotated.png") no-repeat center / contain;
+    top: 189px;
+    left: 51px;
+}
+
+.triangle__3:hover{
+    background: url("img/triangle3-hover.png") no-repeat center / contain;
+}
+
+.triangle__4{
+    background: url("img/white-normal.png") no-repeat center / contain;
+    left: -30px;
+    top: 204px;
+}
+
+.triangle__4:hover{
+    background: url("img/triangle4-hover.png") no-repeat center / contain;
+}
+
+.triangle__5{
+    background: url("img/yellow-rotated.png") no-repeat center / contain;
+    top: 140px;
+    left: -81px;
+}
+
+.triangle__5:hover{
+    background: url("img/triangle5-hover.png") no-repeat center / contain;
+}
+
+.triangle__6{
+    background: url("img/yellow-normal.png") no-repeat center / contain;
+    top: 15px;
+    left: -81px;
+}
+
+.triangle__6:hover{
+    background: url("img/triangle6-hover.png") no-repeat center / contain;
+}
+
+.triangles__description{
+    max-width: 270px;
+}
+
+.triangles__title{
+    color: #ffffff;
+    font-family: "Open Sans - Condensedlight";
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 18px;
+}
+
+.triangles__text{
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 18px;
+    line-height: 27px;
+}
+
+@media (max-width:720px),(max-device-width:720px) {
+    .triangles{
+        flex-direction: column;
+        margin: 40px 12px 0 auto;
+    }
+
+    .triangles__main{
+        width: 185px;
+        left: 50px;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Webpage</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Awesome webpage">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body style="background:url('img/contact-bg.jpg') no-repeat center / cover; min-height:96vh;">
+		<noscript>
+			<p>Please enable Javascript</p>
+		</noscript>
+		<header class="flex-column flex-md-row">
+			<a href="#" class="mr-0 mr-md-4">
+				<img src="img/header-logo.png" alt="invision group">
+			</a>
+			<nav class="navbar navbar-expand-md header__nav justify-content-center justify-content-lg-between">
+				<button type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><i class="fas fa-align-justify color-white"></i></button>
+				<div id="headerNav" class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+						<li>
+							<a href="#" class="header__nav-item">Invision group</a>
+						</li>
+						<li>
+							<a href="#" class="header__nav-item">О Компании</a>
+						</li>
+						<li>
+							<a href="#" class="header__nav-item header__nav-item_active">Услуги</a>
+						</li>
+						<li>
+							<a href="#" class="header__nav-item">Инженерные системы</a>
+						</li>
+						<li>
+							<a href="#" class="header__nav-item">Портфолио</a>
+						</li>
+						<li>
+							<a href="#" class="header__nav-item">Контакты</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="header__socials">
+				<a href="#" class="insta-icon"></a>
+				<a href="#" class="yt-icon"></a>
+				<a href="#" class="fb-icon"></a>
+			</div>
+		</header>
+		<div class="blackout">
+			<img src="" alt="Произошла ошибка загрузки" class="blackout__img">
+		</div>
+		<main class="text-center text-lg-left">
+			<div class="container mt-1 mt-md-2 mt-xl-5">
+				<div class="row mx-0">
+					<div class="col-lg-4">
+						<h2 class="container__title mt-3">
+							<span class="color-white">Котеджный поселок</span>
+							<br>
+							<span class="text-uppercase">Белый Берег</span>
+						</h2>
+						<div class="container__title_small mb-1">Объект:</div>
+						<div class="container__text">Частная квартира общей площадью 650 м2.</div>
+						<br>
+						<div class="container__title_small mb-1">Выполненные работы:</div>
+						<div class="container__text">Проектирование и строительство инженерных сетей с применением новейших технологий по следующим инженерным системам:</div>
+						<div class="container__text">- Система общеобменной вентиляции</div>
+						<div class="container__text">- Система кондиционирования VRV</div>
+						<div class="container__text">- Система адиабатического увлажнения</div>
+						<div class="container__text">- Система водоснабжения и канализации</div>
+						<div class="container__text">- Система отопления</div>
+					</div>
+					<div class="col-lg-8 position-relative">
+						<div class="owl-carousel owl-theme owl-portfolio">
+							<div>
+								<img src="img/example.jpg" alt="Пример работы" class="img-fluid img-example">
+								<img src="img/zoomIn.png" alt="Увеличить" class="zoomIn">
+							</div>
+							<div>
+								<img src="img/example.jpg" alt="Пример работы" class="img-fluid img-example">
+								<img src="img/zoomIn.png" alt="Увеличить" class="zoomIn">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container mb-4 mt-3">
+				<a href="#" class="link link_back">
+					<img src="img/back.png" alt="&lt;&lt;">
+					<div class="link__text">назад</div>
+				</a>
+			</div>
+		</main>
+	</body>
+</html>
