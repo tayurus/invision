@@ -28,6 +28,11 @@ body{
     padding: 0px;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .insta-icon{
     width: 19px;
     height: 19px;
@@ -62,6 +67,19 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     cursor: pointer;
+}
+
+.contacts-map{
+    border-radius: 10px;
+}
+
+.owl-carousel .owl-nav{
+    outline: none !important;
+}
+
+.owl-carousel .owl-nav button, .owl-carousel .owl-nav button:hover{
+    background: transparent !important;
+    outline: none !important;
 }
 
 @media (max-width:600px),(max-device-width:600px) {

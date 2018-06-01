@@ -7,3 +7,7 @@
     left: 15px;
     color: #fff;
 }
+
+.owl-portfolio img{
+    border-radius: 10px;
+}

@@ -4,6 +4,10 @@
     border-radius: 5px;
 }
 
+.example img{
+    border-radius: 10px;
+}
+
 .example_drowned{
     margin-top: 90px;
 }
