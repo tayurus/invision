@@ -16,8 +16,26 @@
 }
 
 .backgrounds-carousel__item_bg1{
-    background: url("img/contact-bg.jpg") no-repeat center / cover;
+    background: url("img/main-bg-1.jpg") no-repeat center / cover;
 }
 .backgrounds-carousel__item_bg2{
-    background: url("img/service-bg.jpg") no-repeat center / cover;
+    background: url("img/main-bg-2.jpg") no-repeat center / cover;
+}
+.backgrounds-carousel__item_bg3{
+    background: url("img/main-bg-3.jpg") no-repeat center / cover;
+}
+.backgrounds-carousel__item_bg4{
+    background: url("img/main-bg-4.jpg") no-repeat center / cover;
+}
+.backgrounds-carousel__item_bg5{
+    background: url("img/main-bg-5.jpg") no-repeat center / cover;
+}
+.backgrounds-carousel__item_bg6{
+    background: url("img/main-bg-6.jpg") no-repeat center / cover;
+}
+.backgrounds-carousel__item_bg7{
+    background: url("img/main-bg-7.jpg") no-repeat center / cover;
+}
+.backgrounds-carousel__item_bg8{
+    background: url("img/main-bg-8.jpg") no-repeat center / cover;
 }
