@@ -3,13 +3,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 112px 26px 68px auto
+    margin: 100px auto;
+
 }
 
 .triangles__main{
     width: 257px;
     height: 316px;
     position: relative;
+    transform: scale(0.6);
 }
 
 .triangle{
@@ -103,7 +105,7 @@
 
     .triangles__main{
         width: 185px;
-        left: 50px;
+        left: 32px;
         margin-bottom: 30px;
     }
 }

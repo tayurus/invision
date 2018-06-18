@@ -7,22 +7,22 @@ header.flex-column.flex-md-row
     
 
     nav.navbar.navbar-expand-md.header__nav.justify-content-center.justify-content-lg-between
-        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#headerNav', aria-controls='headerNav', aria-expanded='false', aria-label='Toggle navigation')
-            i.fas.fa-align-justify.color-white
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#headerNav', aria-controls='headerNav', aria-expanded='true', aria-label='Toggle navigation')
+            i.color-white(style="font-style:normal;") ☰
     
-        #headerNav.collapse.navbar-collapse
+        #headerNav.navbar-collapse.show
             ul.navbar-nav
-                li
+                li.my-1.my-lg-0
                     a.header__nav-item(href="#") Invision group
-                li
+                li.my-1.my-lg-0
                     a.header__nav-item(href="#") О Компании
-                li
+                li.my-1.my-lg-0
                     a.header__nav-item.header__nav-item_active(href="#") Услуги
-                li
+                li.my-1.my-lg-0
                     a.header__nav-item(href="#") Инженерные системы
-                li
+                li.my-1.my-lg-0
                     a.header__nav-item(href="#") Портфолио
-                li
+                li.my-1.my-lg-0
                     a.header__nav-item(href="#") Контакты
     
     .header__socials

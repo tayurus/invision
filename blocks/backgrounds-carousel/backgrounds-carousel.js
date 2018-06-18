@@ -5,14 +5,14 @@ function startSlider() {
     let scrollMax = slideWidth * $(".backgrounds-carousel__item").length;
     sliderDescriptor = setInterval(function() {
 
-        $(".backgrounds-carousel").animate({scrollLeft:scrollTo},1000, function() {
+        $(".backgrounds-carousel").animate({scrollLeft:scrollTo},2000, function() {
             scrollTo += slideWidth;
             if (scrollTo >= scrollMax){
                 scrollTo = 0;
             }
         });
 
-    }, 4000);
+    }, 6000);
 }
 
 $(window).resize(function() {
