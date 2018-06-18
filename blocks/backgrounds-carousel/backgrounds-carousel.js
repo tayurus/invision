@@ -1,23 +1,12 @@
 let sliderDescriptor;
-function startSlider() {
-    let slideWidth = $(window).width();
-    let scrollTo = slideWidth;
-    let scrollMax = slideWidth * $(".backgrounds-carousel__item").length;
+
+function startSlider(){
+    let slidesCount = 7;
+    let currentSlide = 1;
     sliderDescriptor = setInterval(function() {
+        $(".backgrounds-carousel__item").css({"background" : "url(img/main-bg-" + ( currentSlide++ % slidesCount ) + ".jpg) no-repeat center / cover"});
+    },4000);
 
-        $(".backgrounds-carousel").animate({scrollLeft:scrollTo},2000, function() {
-            scrollTo += slideWidth;
-            if (scrollTo >= scrollMax){
-                scrollTo = 0;
-            }
-        });
-
-    }, 6000);
 }
 
-$(window).resize(function() {
-    clearInterval(sliderDescriptor);
-    startSlider();
-})
-
-startSlider()
+startSlider();
